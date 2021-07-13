@@ -1,0 +1,85 @@
+#calculator{
+    width: 373px;
+    height: 480px;
+    background-color: lightblue;
+    position: relative;
+    left: 25%;
+    /* top: 0%; */
+    margin-top: 5%;
+}
+h1{
+    font-size: 44px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    padding-left: 8%;
+    letter-spacing: 2px;
+}
+.outer-div{
+    display: flex;
+    flex-direction: row;
+}
+
+#screen{
+    margin: 0px 14px;
+    width: 344px;
+    height: 48px;
+    background-color: #011627;
+
+}
+#buttons{
+    width: 65%;
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.btn{
+    background-color: white;
+    width: 32%;
+    text-align: center;
+    height: 49px;
+    position: relative;
+    left: 3%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.btn span{
+    font-size: 30px;
+}
+#zero-btn{
+    width: 66%;
+}
+#operation-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.oper-btn{
+    width: 102px;
+    height: 49px;
+    background-color: crimson;
+    margin-top: 2%;
+    position: relative;
+    left: 17%;
+    text-align: center;
+
+}
+#add{
+    margin-top: 19%;
+}
+.oper-btn span{
+    font-size: 37px;
+    color: white;
+    
+}
+#display{
+    display: block;
+    text-align: right;
+    font-family: cursive;
+    font-size: 2rem;
+    color: #0b57b5;
+    overflow: hidden;
+}
